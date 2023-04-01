@@ -89,6 +89,6 @@ class FileInput:
         return self.__cases
 
 
-cases = FileInput("../../../untitled2/1week_1/input.txt").get_cases()
+cases = FileInput("./input.txt").get_cases()
 for case in cases:
     print(case.get_max_price())
